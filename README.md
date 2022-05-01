@@ -13,7 +13,9 @@ This project is a quick way to setup the haskell local environment within second
 [Build Readme](./build/README.md)
 
 ## Instuction
-1. Obtain the docker image either from docker.io or build a new docker image from local.
+1. Obtain the docker image either from docker.io or build a new docker image. This can be done through 
+    - Github Actions by triggering a new build, or 
+    - Build from the local bash script.
 2. Docker run the docker container to have full access to the haskell stack environment.
 
 
